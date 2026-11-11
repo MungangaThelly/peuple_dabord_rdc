@@ -1,0 +1,4 @@
+## Development node arguments. Set a unique name before distributed deployment.
+-name pd_core_dev@127.0.0.1
+-setcookie CHANGE_ME_FOR_LOCAL_DEVELOPMENT_ONLY
++S 2:2

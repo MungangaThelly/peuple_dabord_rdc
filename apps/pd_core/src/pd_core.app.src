@@ -1,0 +1,9 @@
+{application, pd_core,
+ [{description, "PEUPLE D'ABORD – RDC core prototype"},
+  {vsn, "0.1.0"},
+  {registered, [pd_core_sup]},
+  {mod, {pd_core_app, []}},
+  {applications, [kernel, stdlib]},
+  {env, [{environment, development}]},
+  {modules, []}
+ ]}.
